@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Food Center</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gym Food Center</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Gym Food Center!</h2>
+      <p>Get your protein-packed meals for a healthy and fit lifestyle.</p>
+    </section>
+
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <img src="./peanutcom.jpg" alt="peanutcombo">
+        <h3>Peanut Combo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="./eggcheesecom.jpg" alt="eggcheesecombo">
+        <h3>Egg-Cheese Combo</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="./eggvegcom.jpg" alt="eggvegcombo">
+        <h3>Egg-Veg Combo</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="./eggvegcom.jpg" alt="eggvegcombo">
+        <h3>Egg-Veg Combo</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="./eggvegcom.jpg" alt="eggvegcombo">
+        <h3>Egg-Veg Combo</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <button >Add to Cart</button>
+      </div>
+      <!-- Add more menu items here -->
+    </section>
+
+    <section id="order" class="order">
+      <h2>Order</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="meal">Select a Meal:</label>
+        <select id="meal" name="meal" required>
+          <option value="" selected disabled>Choose a meal</option>
+          <option value="meal1">Peanut Combo</option>
+          <option value="meal2">Egg-Cheese Combo</option>
+          <option value="meal3">Egg-Veg Combo</option>
+          <option value="meal4">Egg-Veg Combo</option>
+          <option value="meal5">Egg-Veg Combo</option>
+
+          
+          <!-- Add more meal options here -->
+        </select>
+
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>For any inquiries, please reach out to us:</p>
+      <p>Email: info@gymfoodcenter.com</p>
+      <p>Phone: 123-456-7890</p>
+      <p>For any inquiries, please reach out to us:</p>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Gym Food Center. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

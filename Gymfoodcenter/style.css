@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+   
+    
+
+  }
+  
+  nav ul li a {
+    color:yellow;
+    text-decoration: none;
+
+    
+  }
+ 
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+   
+  section p{
+    text-align: center;
+  }
+  .menu-item {
+    
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 50px 50px;
+    
+    
+  }
+
+  
+  
+  .menu-item img {
+    width: 100%;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .order{
+    text-align: center;
+  }
+  form label {
+    display: block;
+    margin-top: 10px;
+    
+  }
+  
+  form input,
+  form select,
+  form button {
+    margin-top: 5px;
+    
+  }
+  .contact{
+    text-align: center;
+
+  }
+  .contact ul li {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
