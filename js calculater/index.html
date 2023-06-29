@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Calculater</h1>
+    <div class="calculator">
+        <input type="text" class="result" id="result" readonly>
+        <table>
+            <tr>
+                <td><button onclick="clearResult()">C</button></td>
+                <td><button onclick="deleteCharacter()"><</button></td>
+                <td><button onclick="appendCharacter('/')">/</button></td>
+                <td><button onclick="appendCharacter('7')">7</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendCharacter('8')">8</button></td>
+                <td><button onclick="appendCharacter('9')">9</button></td>
+                <td><button onclick="appendCharacter('*')">*</button></td>
+                <td><button onclick="appendCharacter('4')">4</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendCharacter('5')">5</button></td>
+                <td><button onclick="appendCharacter('6')">6</button></td>
+                <td><button onclick="appendCharacter('-')">-</button></td>
+                <td><button onclick="appendCharacter('1')">1</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendCharacter('2')">2</button></td>
+                <td><button onclick="appendCharacter('3')">3</button></td>
+                <td><button onclick="appendCharacter('+')">+</button></td>
+                <td><button onclick="appendCharacter('0')">0</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="appendCharacter('.')">.</button></td>
+                <td colspan="2"><button onclick="calculateResult()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

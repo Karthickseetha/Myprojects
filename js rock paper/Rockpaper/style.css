@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #game {
+    margin-top: 50px;
+  }
+  
+  #choices {
+    margin-bottom: 20px;
+  }
+  
+  .choice {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
