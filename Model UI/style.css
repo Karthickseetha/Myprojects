@@ -1,0 +1,58 @@
+body{
+    background-color: cadetblue
+}
+h1{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    align-items: center;
+    margin: 3rem auto;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    
+    
+}
+.btn button{
+    background-color: rgb(6, 235, 120);
+    border-radius: 10px;
+    padding: 0.75rem 1.25rem;
+    
+    
+}
+.btn button:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+
+.details{
+    text-align: center;
+    width: 20rem;
+    margin: 2rem auto;
+    box-shadow: darkgray;
+    background-color: white;
+    padding: 1.25rem;
+    border: 2px solid black;
+    border-radius: 2px; 
+    position: S; 
+
+}
+.btn-close{
+    border-radius: 50%;
+      border: none;
+      background-color: aquamarine;
+      /* font-size: 1.5rem; */
+    cursor: pointer;
+    position: absolute ;
+    top: 210px;
+    right: 520px;
+    
+}
+
+.close{
+    display: none;
+}
+.open{
+    display: block;
+}
