@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Field-contact</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <div class="nav-bar">
+            <h1>Brown Field</h1>
+
+            <ul>
+
+                <li ><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li class="active"><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="first-div">
+            <h2>Contact Information</h2>
+
+            <p>Praesent nunc urna, mattis lobortis hendrerit at, bibendum eu enim. Maecenas ligula tellus, volutpat et auctor at, iaculis ultricies ligula.
+                 Cras eu nunc in sem cursus auctor. Vestibulum ante ipsum primis in faucibus orci luctus et. Validate <a href="">XHTML</a>  and <a href="">CSS</a> .</p>
+                <button class="btn-1">
+                    Learn More
+                </button>
+                <a href="https://www.adobe.com/products/flashplayer/end-of-life.html"><img src="./images/img3.png" alt="Abobe flash palyer" width="30px" height="30px">   
+                </a>
+                    </div>
+        <div class="second-div">
+            <div class="sub-div1">
+
+                <div class="form">
+                <h3>Quick Contact Form</h3>
+
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="sendButton">Send</button>
+                            <button type="button" id="resetButton">Reset</button>
+                        </div>
+                    </form>
+
+
+                            </div>
+
+                    <div class="contents">    
+                    <h3>Where We Are</h3>
+                    <p><a href="">tooplate</a> provides free HTML CSS templates. You can immediately download and use any template for any purpose.</p>
+                    <img src="https://media.istockphoto.com/id/157532206/photo/india-and-malaysia-regional-map.jpg?s=1024x1024&w=is&k=20&c=I-AyiIMsTQ5XGmUxTbxE4pCK_UKIwrpCZPmEnDnVnJI=" alt="map">
+                     
+                    <h3>Mailing Address</h3>
+
+                    <h4>Company Name</h4>
+                    <p class="para">220-440 Duis lacinia dictum,
+                        Vestibulum auctor, 12440
+                        Diam a mollis tempor</p>
+                    <span class="phone">Phone: 010-020-1020</span>
+
+                    <span>Email: <a href="">brownfields@gmail.com</a></span>
+
+
+
+                </div>  
+
+
+                                    </div>
+                                   
+                                    <footer>
+                                       <span class="footer">Copyright © 2048 Company Name | Design: tooplate</span> 
+                                      </footer>
+                                   
+                          </div> 
+                          
+                         
+            </div>
+
+            
+             
+
+          
+        </div>
+
+    </main>
+
+    <!-- form data in local Storage -->
+
+    <script >
+        document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contactForm");
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
+    const subjectInput = document.getElementById("subject");
+    const messageInput = document.getElementById("message");
+    const sendButton = document.getElementById("sendButton");
+    const resetButton = document.getElementById("resetButton");
+
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = {
+            name: nameInput.value,
+            email: emailInput.value,
+            subject: subjectInput.value,
+            message: messageInput.value,
+        };
+
+        // Store the form data in local storage
+        localStorage.setItem("formData", JSON.stringify(formData));
+        
+        // You can send the form data to a server here if needed
+
+        // Clear the form inputs
+        nameInput.value = "";
+        emailInput.value = "";
+        subjectInput.value = "";
+        messageInput.value = "";
+
+        alert("Form data has been sent and stored in local storage.");
+    });
+
+    resetButton.addEventListener("click", function () {
+        // Clear the form inputs
+        nameInput.value = "";
+        emailInput.value = "";
+        subjectInput.value = "";
+        messageInput.value = "";
+    });
+});
+
+    </script>
+    
+</body>
+</html>

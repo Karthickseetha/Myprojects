@@ -1,0 +1,165 @@
+
+
+.main{
+    background-image: url('./images/img2.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow-y: scroll;
+}
+.nav-bar h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 180px;
+    font-family: 'Pacifico';
+    font-weight: 300;
+    
+}
+.nav-bar ul{
+    float:right;
+    list-style-type: none;
+    margin-top: -80px;
+    position: relative;
+    margin-right: 200px;
+}
+ul li{
+    display: inline-block;
+    /* gap: 10px; */
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+     /* border: 1px solid black; */
+    border:0.2px solid rgb(27, 27, 27);
+    transition: 0.6s ease;
+    border-radius: 10px;
+    padding: 9px 30px;
+    margin-right: 5px;
+    
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+ul li.active a{
+    background-color: white;
+    color:black;
+}
+.first-div{
+    /* text-align: center; */
+     border: 1px solid black;
+     border-radius: 10px;
+     width: 950px;
+     height: 18rem;
+     margin-left: 180px;
+     /* background-color: rgb(102, 100, 100); */
+     /* opacity: 0.4; */
+     
+}
+.first-div h2{
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+     
+}
+.first-div p{
+    color: white;
+    text-align: inherit;
+    width: 450px;
+    margin-left: 50px;
+    
+
+}
+.btn-1{
+   color:black;
+   border:0.2px solid rgb(27, 27, 27);
+   transition: 0.6s ease;
+   border-radius: 10px;
+   padding: 9px 18px;
+   font-weight: 600;
+   margin-left: 50px;
+   margin-top: 18px;
+   cursor: pointer;
+
+}
+.first-div img{
+   
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+.sub-div1{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 950px;
+    height:600px;
+    margin-left: 180px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 70rem; /* Adjust as needed */
+    margin: 0 auto;
+
+}
+
+.item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.item img {
+    /* outline-color: black; */
+    /* display: inline-block; */
+    border: 5px solid gray;
+    max-width: 100%;
+    height: 120px;
+}
+.item p{
+    width: 16rem;
+    font-size: 0.8rem;
+}
+.visit-button,
+.details-button {
+    background-color: white;
+    color: lightcoral; /* Use your desired light-red color here */
+    border: 1px solid rgb(15, 15, 15);
+    padding: 5px 25px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+
+}
+
+.visit-button:hover,
+.details-button:hover {
+    
+    color:red;
+}
+
+footer{
+    margin-top: 40px;
+    color: rgb(199, 199, 194);
+    margin-left: 30%;
+}
